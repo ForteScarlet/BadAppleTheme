@@ -1,11 +1,32 @@
 {
   "name": "BadAppleTheme",
-  "author": "YourCompany",
-  "dark": true,
+  "author": "ForteScarlet",
+  "dark": false,
   "colors": {
-    "primaryRed": "#821010"
+    "B": "#000000",
+    "W": "#ffffff"
   },
   "ui": {
-    "Button.background": "primaryRed"
-  }
+    "EditorTabs": {
+      "background": "B",
+      "hoverBackground": "W",
+      "borderColor": "W",
+      "underlinedTabBackground": "B",
+      "underlineColor": "W",
+      "underlinedTabForeground": "B",
+      "inactiveUnderlineColor": "B"
+    },
+    "MainWindow": {
+      "Tab": {
+        "background": "B",
+        "hoverBackground": "B",
+        "hoverForeground": "B",
+        "foreground": "W",
+        "borderColor": "B",
+        "selectedBackground": "W"
+      }
+    }
+  },
+  "editorScheme": ""
+
 }
