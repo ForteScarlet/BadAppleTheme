@@ -10,12 +10,13 @@
     "B3": "#4f4f4f",
     "W": "#ffffff",
     "W1": "#f0f0f0",
+    "W1_A": "#f0f0f08c",
     "W2": "#E6E6E6",
     "W3": "#8b8b8b"
   },
   "ui": {
     "*": {
-      "background": "B",
+      "background": "B1",
       "foreground": "W1",
 
       "infoForeground": "W1",
@@ -90,7 +91,7 @@
     },
 
     "ComboBox": {
-      "nonEditableBackground": "#000000",
+      "nonEditableBackground": "B1",
       "modifiedItemForeground": "W2",
       "ArrowButton": {
         "iconColor": "W1",
@@ -102,9 +103,10 @@
     "Code": {
       "Inline": {
         "backgroundColor": "B1",
-        "backgroundOpacity": 60,
         "borderColor": "B1",
-        "borderWidth": 1
+        "backgroundOpacity": 60,
+        "borderWidth": 0,
+        "borderRadius": 10
       },
       "Block": {
         "backgroundColor": "B1",
@@ -119,15 +121,39 @@
       }
     },
 
-    "ComboPopup.border": "1,1,1,1,E6E6E6",
+    "Shortcut": {
+      "borderColor":"B1",
+      "borderRadius": 7,
+      "borderWidth": 1
+    },
+
+    "ComboPopup.border": "1,1,1,1,B1",
 
     "CompletionPopup":  {
+      "Advertiser": {
+        "background": "B1",
+        "foreground": "W1",
+        "borderInsets.compact": "2,12,2,8"
+      },
+      "background": "B1",
       "matchForeground": "W1",
-      "matchSelectionForeground": "W1",
-      "foreground": "W2",
-      "selectionBackground": "B1",
-      "selectionInactiveBackground": "W1",
-      "nonFocusedMask": "B1"
+      "selectionBackground": "W1_A",
+      "selectionInactiveBackground": "W1_A",
+      "selectionInnerInsets.compact": "0,2,0,2",
+      "foreground": "W1",
+      "nonFocusedState": false
+    },
+
+    "FindPopup": {
+      "scopesPanelInsets.compact": "1,20,1,20",
+      "bottomPanelInsets.compact": "1,18,1,18"
+    },
+
+    "ComplexPopup": {
+      "Header.background" : "B2",
+      "Header.insets.compact": "10,20,8,15",
+      "TextField.inputInsets.compact": "4,2,4,2",
+      "innerBorderInsets.compact": "2,3,2,3"
     },
 
     "Component": {
@@ -296,6 +322,7 @@
 
     "Popup": {
       "paintBorder": true,
+      "background": "B1",
       "inactiveBorderColor": "W1",
       "Toolbar.borderColor": "W2",
       "separatorForeground": "W2",
@@ -304,11 +331,17 @@
       "Advertiser": {
         "background": "B1",
         "borderColor": "B1",
+        "foreground": "W1",
         "borderInsets": "3,8,5,0"
+      },
+      "Selection": {
       }
     },
 
     "PopupMenu": {
+      "selectionBackground": "B1",
+      "selectionForeground": "W1",
+      "translucentBackground": "B2",
       "borderWidth": 1,
       "borderInsets": "8,1,8,1"
     },

@@ -1,13 +1,12 @@
 <scheme name="Bad Apple" version="142" parent_scheme="Darcula">
     <colors>
-<!--        <option name="CARET_ROW_COLOR" value="000000" />-->
-<!--        <option name="LINE_NUMBERS_COLOR" value="000000" />-->
-<!--        <option name="SELECTION_BACKGROUND" value="000000" deuteranopia="000000" protanopia="000000"/>-->
-<!--        <option name="SELECTION_FOREGROUND" deuteranopia="ffffff" protanopia="ffffff" />-->
-<!--        <option name="TEARLINE_COLOR" value="ffffff" />-->
-<!--        <option name="GUTTER_BACKGROUND" value="ffffff" />-->
-<!--        <option name="FOLDED_TEXT_BORDER_COLOR" value="ffffff" deuteranopia="ffffff" protanopia="ffffff"/>-->
-
+        <option name="CARET_ROW_COLOR" value="000000" />
+        <option name="LINE_NUMBERS_COLOR" value="000000" />
+        <option name="SELECTION_BACKGROUND" value="000000" deuteranopia="000000" protanopia="000000"/>
+        <option name="SELECTION_FOREGROUND" deuteranopia="ffffff" protanopia="ffffff" />
+        <option name="TEARLINE_COLOR" value="ffffff" />
+        <option name="GUTTER_BACKGROUND" value="ffffff" />
+        <option name="FOLDED_TEXT_BORDER_COLOR" value="ffffff" deuteranopia="ffffff" protanopia="ffffff"/>
         <option name="FILESTATUS_ADDED" value="ffffff"/>
         <option name="FILESTATUS_COPIED" value="ffffff"/>
         <option name="FILESTATUS_DELETED" value="ffffff"/>
