@@ -563,7 +563,7 @@
       }
     },
 
-    "TitlePane.Button.hoverBackground": "#3333FF",
+    "TitlePane.Button.hoverBackground": "#e6e6e6",
 
     "Window.border" : "1,1,1,1,E6E6E6",
 

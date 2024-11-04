@@ -2,3 +2,6 @@ out
 *.jar
 .idea
 *.iml
+build
+.kotlin
+.gradle
