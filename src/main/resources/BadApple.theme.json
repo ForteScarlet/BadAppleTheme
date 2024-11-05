@@ -4,13 +4,13 @@
   "dark": true,
   "editorScheme": "/BadAppleSchema.xml",
   "colors": {
-    "B": "#080808",
+    "B": "#000000",
     "B1": "#0f0f0f",
     "B2": "#2e2e2e",
     "B3": "#4f4f4f",
     "W": "#ffffff",
     "W1": "#f0f0f0",
-    "W1_A": "#f0f0f08c",
+    "W1A": "#f0f0f0",
     "W2": "#E6E6E6",
     "W3": "#8b8b8b"
   },
@@ -127,7 +127,7 @@
       "borderWidth": 1
     },
 
-    "ComboPopup.border": "1,1,1,1,B1",
+    "ComboPopup.border": "1,1,1,1,0f0f0f",
 
     "CompletionPopup":  {
       "Advertiser": {
@@ -137,8 +137,8 @@
       },
       "background": "B1",
       "matchForeground": "W1",
-      "selectionBackground": "W1_A",
-      "selectionInactiveBackground": "W1_A",
+      "selectionBackground": "W1A",
+      "selectionInactiveBackground": "W1A",
       "selectionInnerInsets.compact": "0,2,0,2",
       "foreground": "W1",
       "nonFocusedState": false
@@ -221,7 +221,7 @@
       "Gray": "W2"
     },
 
-    "IconBadge": {
+    "IconBadge_1": {
       "borderWidth": 1.5,
       "dotRadius": 3.5,
       "dotX": 16.5,
@@ -557,23 +557,6 @@
       "separatorColor": "W"
     },
 
-
-    "MainToolbar": {
-      "Icon": {
-        "borderInsets": "10,10,10,10",
-        "background": "B",
-        "hoverBackground": "W",
-        "pressedBackground": "W"
-      },
-      "Dropdown": {
-        "borderInsets": "12,6,12,6",
-        "background": "B",
-        "hoverBackground": "B1",
-        "pressedBackground": "B1",
-        "transparentHoverBackground": "B1"
-      }
-    },
-
     "TitlePane.Button.hoverBackground": "B1",
 
     "Window.border" : "1,1,1,1,W1",
@@ -583,43 +566,6 @@
       "runningBackground": "B1",
       "hoverBackground": "B2",
       "pressedBackground": "B2"
-    },
-
-    "Profiler": {
-      "ChartSlider": {
-        "foreground": "W2",
-        "lineColor": "W2"
-      },
-      "CpuChart": {
-        "background": "W1",
-        "borderColor": "W2",
-        "inactiveBackground": "W1",
-        "inactiveBorderColor": "W2",
-        "pointBackground": "W1",
-        "pointBorderColor": "W2"
-      },
-      "MemoryChart": {
-        "background": "W1",
-        "borderColor": "W2",
-        "inactiveBackground": "W1",
-        "inactiveBorderColor": "W2",
-        "pointBackground": "W1",
-        "pointBorderColor": "W2"
-      },
-      "Timer": {
-        "foreground": "W1",
-        "disabledForeground": "W3",
-        "background": "B1"
-      },
-      "LiveChart": {
-        "horizontalAxisColor": "W2"
-      }
-    },
-
-    "FlameGraph.Tooltip": {
-      "scaleBackground": "B2",
-      "scaleColor": "B1",
-      "foreground": "W1"
     },
 
     "LineProfiler" : {
@@ -672,7 +618,4 @@
       "Checkbox.Foreground.Disabled.Dark": "#FFFFFF"
     }
   }
-
-
-
 }
