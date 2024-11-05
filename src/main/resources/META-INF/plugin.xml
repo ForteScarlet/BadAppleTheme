@@ -34,6 +34,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider
                 id="9622fa12-ea91-4807-b99a-ec2dae55610f"
-                path="/BadApple.theme.json"/>
+                path="/bad_apple.theme.json"/>
     </extensions>
 </idea-plugin>
