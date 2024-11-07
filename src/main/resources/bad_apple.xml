@@ -40,6 +40,7 @@
         <option name="VCS_ANNOTATIONS_COLOR_3" value="ffffff" />
         <option name="VCS_ANNOTATIONS_COLOR_4" value="ffffff" />
         <option name="VCS_ANNOTATIONS_COLOR_5" value="ffffff" />
+        <option name="VCS_ANNOTATIONS_COLOR_6" value="ffffff" />
 
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="0" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="ffffffbe" />

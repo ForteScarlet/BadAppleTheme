@@ -4,8 +4,8 @@ plugins {
     id("org.jetbrains.intellij") version "1.17.4"
 }
 
-group = "love.forte.ide"
-version = "1.0.0-SNAPSHOT"
+group = "love.forte.plugin"
+version = "0.0.1"
 
 repositories {
     mavenCentral()
@@ -13,7 +13,9 @@ repositories {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version.set("2020.1")
+    version.set("2021.3.1")
+    downloadSources.set(true)
+    updateSinceUntilBuild.set(false)
 }
 
 // patchPluginXml {

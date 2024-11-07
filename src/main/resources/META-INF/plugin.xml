@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
-<idea-plugin>
+<idea-plugin url="https://github.com/forteScarlet/BadAppleTheme">
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>BadAppleTheme</id>
-    <version>1.0.0</version>
+    <id>love.forte.plugin.BadAppleTheme</id>
+    <version>0.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -10,21 +10,20 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="ForteScarlet@163.com" url="https://forte.love">ForteScarlet</vendor>
+    <vendor email="ForteScarlet@163.com" url="https://forte.love">Forte Scarlet</vendor>
 
-    <idea-version since-build="232" until-build="242.*"/>
+    <idea-version since-build="203.7148.57" />
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Bad Apple theme. Apple! Apple? AAAAAPPPPPPPLE!
+    Bad Apple theme! <i>Enjoy</i> your coding in the black and white ‘Stage 3’ shadow painting!
 ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes><![CDATA[
-  ]]></change-notes>
+    <change-notes><![CDATA[]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->

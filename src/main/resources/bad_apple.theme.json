@@ -116,13 +116,11 @@
         "background": "B1",
         "foreground": "W1"
       },
-      "background": "B1",
       "matchForeground": "W1",
       "selectionBackground": "W1A",
       "selectionInactiveBackground": "W1A",
       "selectionInnerInsets.compact": "0,2,0,2",
-      "foreground": "W1",
-      "nonFocusedState": true
+      "foreground": "W1"
     },
     "FindPopup": {
       "scopesPanelInsets.compact": "1,20,1,20",
@@ -148,7 +146,7 @@
       "foreground": "B1"
     },
     "DebuggerPopup.borderColor": "W2",
-    "DebuggerTabs.selectedBackground": "B2",
+    "DebuggerTabs.underlinedTabBackground": "B2",
     "DefaultTabs": {
       "underlineColor": "W2",
       "inactiveUnderlineColor": "W1",
@@ -160,8 +158,7 @@
       "borderColor": "W2",
       "rowBackground": "W2",
       "areaForeground": "W2",
-      "areaBackground": "B2",
-      "areaBorderColor": "W2"
+      "areaBackground": "B2"
     },
     "Editor": {
       "background": "B1",
@@ -170,9 +167,9 @@
     },
     "EditorPane.inactiveBackground": "B1",
     "EditorTabs": {
-      "selectedForeground": "B1",
-      "selectedBackground": "W2",
-      "inactiveMaskColor": "W3",
+      "hoverBackground": "B2",
+      "hoverSelectedBackground": "B2",
+      "hoverSelectedInactiveBackground": "B2",
       "underlineColor": "W1",
       "underlineHeight": 4,
       "underlinedTabBackground": "B1",
@@ -218,7 +215,7 @@
       "background": "B1",
       "iconHoverBackground": "B1",
       "errorForeground": "W1",
-      "errorBackground": "W2",
+      "errorBackground": "B2",
       "errorBorderColor": "W1",
       "MoreButton.innerBorderColor": "B1",
       "ToolWindow": {
@@ -307,20 +304,16 @@
     },
     "BookmarkMnemonicAssigned": {
       "foreground": "B1",
-      "background": "W1",
-      "borderColor": "W1"
+      "background": "W1"
     },
     "BookmarkMnemonicCurrent": {
       "foreground": "W1",
-      "background": "B",
-      "borderColor": "B1"
+      "background": "B"
     },
     "Bookmark": {
       "iconBackground": "W1",
       "Mnemonic": {
-        "iconForeground": "W",
-        "iconBackground": "B",
-        "iconBorderColor": "W"
+        "iconForeground": "W"
       }
     },
     "ScrollBar": {
@@ -412,7 +405,6 @@
         "inactiveBackground": "B1"
       },
       "HeaderTab": {
-        "selectedBackground": "B2",
         "selectedInactiveBackground": "B1",
         "hoverBackground": "B2",
         "hoverInactiveBackground": "B2",
@@ -426,7 +418,15 @@
         "selectedForeground": "W1"
       }
     },
-    "Tree.modifiedItemForeground": "W1",
+    "Tree": {
+      "background": "B1",
+      "modifiedItemForeground": "B1",
+      "selectionBackground": "W1",
+      "selectionForeground": "B1",
+      "selectionInactiveBackground": "W2A",
+      "hoverInactiveBackground": "W2A"
+    },
+    "FileColor.Yellow": "#0000008c",
     "ValidationTooltip": {
       "errorBackground": "W2",
       "errorBorderColor": "W",
