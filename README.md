@@ -4,7 +4,9 @@
 
 ![img.png](docs/img/img.png)
 
-![img.png](docs/img/img2.png)
+![img2.png](docs/img/img2.png)
+
+![img3.png](docs/img/img3.png)
 
 <hr />
 

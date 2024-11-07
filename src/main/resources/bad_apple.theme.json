@@ -170,6 +170,7 @@
       "hoverBackground": "B2",
       "hoverSelectedBackground": "B2",
       "hoverSelectedInactiveBackground": "B2",
+      "background": "B2",
       "underlineColor": "W1",
       "underlineHeight": 4,
       "underlinedTabBackground": "B1",
@@ -177,13 +178,13 @@
       "inactiveColoredFileBackground": "B2"
     },
     "FileColor": {
-      "Yellow": "W2",
-      "Green": "W2",
-      "Blue": "W2",
-      "Violet": "W2",
-      "Orange": "W2",
-      "Rose": "W2",
-      "Gray": "W2"
+      "Yellow": "B2",
+      "Green": "B2",
+      "Blue": "B2",
+      "Violet": "B2",
+      "Orange": "B2",
+      "Rose": "B2",
+      "Gray": "B2"
     },
     "IconBadge": {
       "borderWidth": 1.5,
@@ -426,7 +427,6 @@
       "selectionInactiveBackground": "W2A",
       "hoverInactiveBackground": "W2A"
     },
-    "FileColor.Yellow": "#0000008c",
     "ValidationTooltip": {
       "errorBackground": "W2",
       "errorBorderColor": "W",
