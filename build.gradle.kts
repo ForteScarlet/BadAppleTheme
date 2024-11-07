@@ -1,7 +1,10 @@
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+
 plugins {
     java
     kotlin("jvm") version "2.0.20"
-    id("org.jetbrains.intellij") version "1.17.4"
+    id("org.jetbrains.intellij.platform") version "2.1.0"
 }
 
 group = "love.forte.plugin"
@@ -9,15 +12,48 @@ version = "0.0.1"
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version.set("2021.3.1")
-    downloadSources.set(true)
-    updateSinceUntilBuild.set(false)
+kotlin {
+    jvmToolchain(21)
 }
 
-// patchPluginXml {
-    // intellij.updateSinceUntilBuild = false
-// }
+dependencies {
+    intellijPlatform {
+        // IntelliJ Platform Properties -> https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#configuration-intellij-extension
+        // create("IC", "2024.1.7")
+        create("IC", "2023.3.8")
+
+        instrumentationTools()
+        pluginVerifier()
+        zipSigner()
+        testFramework(TestFrameworkType.Platform)
+    }
+}
+
+intellijPlatform {
+    pluginConfiguration {
+        version = project.version.toString()
+
+        description = """
+            Bad Apple theme! 
+            <i>Enjoy</i> your coding in the black and white ‘Stage 3’ shadow painting!
+        """.trimIndent()
+
+        ideaVersion {
+            sinceBuild = "233"
+            untilBuild = "242.*"
+        }
+
+    }
+
+    pluginVerification {
+        ides {
+            recommended()
+        }
+    }
+}
+

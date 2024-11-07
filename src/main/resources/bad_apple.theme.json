@@ -197,7 +197,6 @@
       "successBackground": "Actions.Green"
     },
     "InplaceRefactoringPopup": {
-      "background": "B1",
       "borderColor": "W2"
     },
     "Link": {
@@ -214,7 +213,6 @@
     "NavBar.borderColor": "W1",
     "Notification": {
       "background": "B1",
-      "iconHoverBackground": "B1",
       "errorForeground": "W1",
       "errorBackground": "B2",
       "errorBorderColor": "W1",
@@ -252,7 +250,6 @@
         "selectedBackground": "B1",
         "hoverBackground": "B2"
       },
-      "SearchField.borderColor": "W1",
       "SectionHeader.background": "B1",
       "tagBackground": "B1",
       "tagForeground": "W1",
@@ -298,16 +295,16 @@
       "passedColor": "W",
       "passedEndColor": "W1"
     },
-    "BookmarkMnemonicAvailable": {
+    "Bookmark.MnemonicAvailable": {
       "foreground": "W1",
       "background": "B2",
       "borderColor": "W1"
     },
-    "BookmarkMnemonicAssigned": {
+    "Bookmark.MnemonicAssigned": {
       "foreground": "B1",
       "background": "W1"
     },
-    "BookmarkMnemonicCurrent": {
+    "Bookmark.MnemonicCurrent": {
       "foreground": "W1",
       "background": "B"
     },
@@ -457,8 +454,7 @@
     },
     "GotItTooltip": {
       "codeBackground": "B1",
-      "shortcutBackground": "B1",
-      "shortcutBorderColor": "W1"
+      "shortcutBackground": "B1"
     },
     "Tooltip.Learning": {
       "background": "B1",
@@ -466,10 +462,7 @@
       "spanBackground": "W1",
       "spanForeground": "B1",
       "foreground": "W1",
-      "stepNumberForeground": "W1",
-      "secondaryActionForeground": "W1",
-      "iconFillColor": "B2",
-      "iconBorderColor": "W1"
+      "stepNumberForeground": "W1"
     },
     "WelcomeScreen": {
       "Projects.selectionInactiveBackground": "B",

@@ -2,7 +2,7 @@
 <idea-plugin url="https://github.com/forteScarlet/BadAppleTheme">
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>love.forte.plugin.BadAppleTheme</id>
-    <version>0.0.1</version>
+    <version>@version@</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -12,7 +12,7 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="ForteScarlet@163.com" url="https://forte.love">Forte Scarlet</vendor>
 
-    <idea-version since-build="203.7148.57" />
+    <idea-version since-build="233" />
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
