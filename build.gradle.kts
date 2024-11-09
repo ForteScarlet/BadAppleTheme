@@ -1,4 +1,3 @@
-import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
@@ -8,7 +7,7 @@ plugins {
 }
 
 group = "love.forte.plugin"
-version = "0.0.1"
+version = "0.0.2"
 
 repositories {
     mavenCentral()
@@ -45,7 +44,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild = "233"
-            // untilBuild = "242.*"
+            untilBuild = "243.*"
         }
 
     }
