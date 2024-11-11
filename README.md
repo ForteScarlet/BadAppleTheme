@@ -1,6 +1,8 @@
 # BadAppleTheme
 
-🍎🍎🍎
+[Get from Marketplace](https://plugins.jetbrains.com/embeddable/install/25775)
+
+## 🍎🍎🍎
 
 ![img.png](docs/img/img.png)
 
