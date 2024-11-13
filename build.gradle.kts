@@ -2,7 +2,7 @@ import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
     java
-    kotlin("jvm") version "2.0.20"
+    // kotlin("jvm") version "2.0.20"
     id("org.jetbrains.intellij.platform") version "2.1.0"
 }
 
@@ -16,9 +16,18 @@ repositories {
     }
 }
 
-kotlin {
-    jvmToolchain(21)
+java {
+    toolchain {
+        this.languageVersion = JavaLanguageVersion.of(21)
+    }
 }
+
+// kotlin {
+//     jvmToolchain(21)
+//     compilerOptions {
+//         this.noJdk = true
+//     }
+// }
 
 dependencies {
     intellijPlatform {
@@ -43,8 +52,8 @@ intellijPlatform {
         """.trimIndent()
 
         ideaVersion {
-            sinceBuild = "241.*"
-            untilBuild = "243.*"
+            sinceBuild = "233"
+            //untilBuild = "243.*"
         }
 
     }
