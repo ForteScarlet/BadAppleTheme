@@ -32,8 +32,8 @@ java {
 dependencies {
     intellijPlatform {
         // IntelliJ Platform Properties -> https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#configuration-intellij-extension
-        create("IC", "2024.1.7")
-        // create("IC", "2023.3.8")
+        // create("IC", "2024.1.7")
+        create("IC", "2023.3.8")
 
         instrumentationTools()
         pluginVerifier()
@@ -53,7 +53,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild = "233"
-            //untilBuild = "243.*"
+            untilBuild = "243.*"
         }
 
     }
