@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "love.forte.plugin"
-version = "0.0.2"
+version = "0.0.4"
 
 repositories {
     mavenCentral()
@@ -48,12 +48,12 @@ intellijPlatform {
 
         description = """
             Bad Apple theme! 
-            <i>Enjoy</i> your coding in the black and white ‘Stage 3’ shadow painting!
+            <i>Enjoy</i> coding in Stage 3!
         """.trimIndent()
 
         ideaVersion {
             sinceBuild = "233"
-            untilBuild = "243.*"
+            untilBuild = provider { null }
         }
 
     }
